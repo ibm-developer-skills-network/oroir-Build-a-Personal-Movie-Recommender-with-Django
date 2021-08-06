@@ -9,3 +9,4 @@ class Movie(models.Model):
     overview = models.TextField(max_length=500, null=True)
     vote_average = models.FloatField(default=0)
     poster_path = models.CharField(max_length=64, null=True)
+    watched = models.BooleanField(default=False, null=True)
