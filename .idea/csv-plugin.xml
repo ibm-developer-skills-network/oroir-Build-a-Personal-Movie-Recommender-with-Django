@@ -3,14 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\recommender\movierecommender\management\commands\movies.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\recommender\movierecommender\movies.csv">
+        <entry key="\recommender\movies.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
