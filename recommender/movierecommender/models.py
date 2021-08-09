@@ -1,9 +1,13 @@
 from django.db import models
 
-
 # Create your models here.
 class Movie(models.Model):
+    """
+    Django Movie Model
+    """
+    # IMDB id
     imdb_id = models.CharField(max_length=48, null=False)
+    # Movie genres
     genres = models.CharField(max_length=200, null=True)
     # Original language
     original_language = models.CharField(max_length=20, null=True)
