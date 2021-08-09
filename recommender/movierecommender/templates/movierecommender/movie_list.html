@@ -21,8 +21,8 @@
         <div class="card-columns">
             {% for movie in movie_list %}
             <div class="col-auto mb-3">
-                <img class="card-img-left" src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}" width="320" height="320">
                 <div class="card">
+                    <img class="card-img-left" src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}" width="320" height="480">
                     <div class="card-body bg-light">
                         <h5 class="card-title">{{movie.original_title}}</h5>
                         <p class="card-text">{{movie.overview}}</p>
