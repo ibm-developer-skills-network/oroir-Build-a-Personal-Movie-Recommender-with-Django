@@ -50,7 +50,7 @@ class Command(BaseCommand):
                 similarity = similarity_between_movies(unwatched_movie, watched_movie)
                 if similarity >= max_similarity:
                     max_similarity = similarity
-                # early stop
+                # early stop if the unwatched_movie is similar enough
                 if max_similarity > THRESHOLD:
                     break
             # If unwatched_movie is similar enough to watched movies
