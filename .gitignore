@@ -134,3 +134,8 @@ dmypy.json
 .idea/modules.xml
 .idea/oroir-Build-a-Personal-Movie-Recommender-with-Django.iml
 .idea/vcs.xml
+.DS_Store
+app_template/.DS_Store
+app_template/recommender/.DS_Store
+app_template/recommender/movierecommender/.DS_Store
+app_template/recommender/recommender/.DS_Store
