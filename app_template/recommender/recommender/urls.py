@@ -18,7 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # HINT: Add a path to movierecommender app
-    # so that its url file can be included in the project
-
+    path('movierecommender/', include('movierecommender.urls'))
 ]
