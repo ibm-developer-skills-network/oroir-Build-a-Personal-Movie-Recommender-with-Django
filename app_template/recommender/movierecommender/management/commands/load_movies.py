@@ -24,7 +24,6 @@ class Command(BaseCommand):
             vote_average = row["vote_average"]
             vote_count = row["vote_count"]
             poster_path = row["poster_path"]
-            #print(f"{imdb_id} {original_title} {genres} {overview} {vote_average} {poster_path}")
             movie = Movie(imdb_id=imdb_id,
                             genres=genres,
                             original_title=original_title,
@@ -35,6 +34,6 @@ class Command(BaseCommand):
                             vote_count=vote_count,
                             poster_path=poster_path)
             movie.save()
-            print(f"{imdb_id} saved...")
+            print(f"Movie: {imdb_id}, {original_title} saved...")
 
 # python manage.py load_movies --path movies.csv

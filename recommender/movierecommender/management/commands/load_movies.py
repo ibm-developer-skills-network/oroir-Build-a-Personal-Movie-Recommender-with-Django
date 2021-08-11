@@ -3,6 +3,7 @@ import pandas as pd
 from django.core.management import BaseCommand
 from ...models import Movie
 
+
 class Command(BaseCommand):
     help = 'Load a movie csv file into the database'
 
